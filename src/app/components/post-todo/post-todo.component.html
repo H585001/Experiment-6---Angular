@@ -1,0 +1,7 @@
+<form #simpleForm = "ngForm" (ngSubmit)="addUser(simpleForm.value)">
+    <label for="desc">Description:</label><br>
+    <input ngModel type="text" id="desc" name="desc"><br>
+    <label for="sum">Summary:</label><br>
+    <input ngModel type="text" id="sum" name="sum"><br>
+    <button>Add</button>
+</form>
